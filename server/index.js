@@ -6,7 +6,6 @@ const router = express.Router();
 
 router.get("/", (req, res) => {
   res.sendFile(path.join(__dirname + "/../client/index.html"));
-  //__dirname : It will resolve to your project folder.
 });
 
 app.use(express.static(__dirname + "/../client"));
