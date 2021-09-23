@@ -9,10 +9,6 @@ router.get("/", (req, res) => {
   //__dirname : It will resolve to your project folder.
 });
 
-router.get("/about", (req, res) => {
-  res.sendFile(path.join(__dirname + "/../client/about.html"));
-});
-
 app.use(express.static(__dirname + "/../client"));
 
 //add the router
