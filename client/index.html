@@ -5,28 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="styles/reset.css" />
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
 
     <title>Jafar Portofolio</title>
   </head>
   <body>
-    <div class="navbar">
-      <a class="active" href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#code">Code</a>
-    </div>
+    <nav class="top-nav">
+      <ul>
+        <div class="logo">
+          <li class="rotate-hover"><img src="images/fish.png" /></li>
+        </div>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Plans</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
     <div class="main-content-header">
-      <div class="home-section" id="home">
-        <h1 class="h-1" id="home">Home</h1>
+      <div class="background-img">
+        <img src="images/code-bg.jpg" />
+      </div>
+      <div class="about" id="about">
+        <h1 class="h1-about">About Me</h1>
+        <hr />
+        <p class="p1-about">
+          Hi, my name is Jafar. <br />
+          I have a great passion for creating all kinds of apps! <br />I've been
+          coding for about 7 to 8 months and it's been a lot of fun!
+        </p>
+      </div>
+      <div class="skills" id="skills">
+        <h1 class="h1-skills">Skills</h1>
+        <hr />
+        <div class="img-skills">
+          <p class="p1-skills">
+            I can make web apps and or android apps using languages like: <br />
+            python, javascript, dart, html, css.
+            <br />
+            I don't have a lot of knowledge of dart since i've recently started
+            using it <br />
+            to create mobile apps with google's flutter.
+          </p>
+          <img class="img1-skills" src="images/program-langs.png" />
+        </div>
       </div>
     </div>
-
-    <script></script>
+    <script src="scripts/index.js"></script>
   </body>
 </html>

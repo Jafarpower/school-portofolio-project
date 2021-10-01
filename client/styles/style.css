@@ -1,38 +1,100 @@
 body {
-  background-color: #e6ecff;
+  background-color: #2c2e3a;
 }
 
-.navbar {
-  background-color: #596ea6;
-  overflow: hidden;
-  display: flex;
+ul {
   position: fixed;
   top: 0;
   width: 100%;
-  justify-content: center;
-}
-/* Style the links inside the navigation bar */
-.navbar a {
-  color: #e6ecff;
-  text-align: center;
-  padding: 20px 16px;
-  text-decoration: none;
-  font-size: 20px;
-}
-/* Change the color of links on hover */
-.navbar a:hover {
-  color: #9da4f8;
-}
-/* Add a color to the active/current link */
-.navbar a.active {
-  color: #9da4f8;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2e324d;
+  opacity: 90%;
 }
 
-.main-content-header .home-section .h-1 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  text-align: center;
-  font-size: 55px;
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
   font-weight: bold;
-  padding-top: 80px;
+  font-size: 15px;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+}
+
+li img {
+  margin-left: 10px;
+  width: 75px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color: #4d61e7;
+}
+
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+.rotate-hover:hover {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.background-img img {
+  height: 750px;
+  width: 100%;
+}
+
+hr {
+  width: 85%;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  border-style: solid;
+}
+
+.h1-about,
+.h1-skills {
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.p1-about,
+.p1-skills {
+  color: white;
+  padding-top: 5px;
+  padding-left: 115px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  text-align: left;
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.img1-skills {
+  width: 400px;
+}
+
+.img-skills {
+  display: flex;
+  align-items: center;
 }
