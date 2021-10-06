@@ -69,16 +69,20 @@ hr {
 }
 
 .h1-about,
+.h1-plans,
+.h1-projects,
 .h1-skills {
   color: white;
   padding-top: 50px;
   padding-bottom: 5px;
   font-size: 20px;
   text-align: center;
-  font-family: sans-serif;
+  font-family: "Noto Sans";
 }
 
 .p1-about,
+.p1-plans,
+.p1-projects,
 .p1-skills {
   color: white;
   padding-top: 5px;
@@ -86,15 +90,18 @@ hr {
   padding-bottom: 20px;
   font-size: 18px;
   text-align: left;
-  font-family: sans-serif;
+  font-family: "Noto Sans";
   letter-spacing: 0.5px;
 }
 
-.img1-skills {
-  width: 400px;
+footer {
+  font-family: "Noto Sans";
+  padding: 5px;
+  background-color: #2e324d;
+  color: white;
 }
 
-.img-skills {
-  display: flex;
-  align-items: center;
+footer a {
+  color: white;
+  text-decoration: none;
 }
