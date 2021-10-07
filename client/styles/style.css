@@ -70,7 +70,8 @@ hr {
 
 .h1-about,
 .h1-projects,
-.h1-skills {
+.h1-skills,
+.h1-questOne {
   color: white;
   padding-top: 50px;
   padding-bottom: 5px;
@@ -81,19 +82,16 @@ hr {
 
 .p1-about,
 .p1-projects,
-.p1-skills {
+.p1-skills,
+.p1-questOne {
   color: white;
   padding-top: 5px;
   padding-left: 115px;
   padding-bottom: 20px;
   font-size: 18px;
-  text-align: left;
+  text-align: center;
   font-family: "Noto Sans";
   letter-spacing: 0.5px;
-}
-
-.projects {
-  padding-bottom: 45px;
 }
 
 footer {
